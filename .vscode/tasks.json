@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build NES ROM",
+      "type": "shell",
+      "command": "\"C:\\Users\\Belal\\OneDrive\\Documents\\cc65-snapshot-win32\\bin\\cl65.exe\" -Oi -t nes -C nes.cfg -o \"build/campus_game.nes\" \"src/crt0.s\" \"src/main.c\" ; & \"C:\\Users\\Belal\\Downloads\\Mesen_2.2\\Mesen.exe\" \"build/campus_game.nes\"",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}
