@@ -243,8 +243,9 @@ detectNTSC:
 
 .segment "RODATA"
 
+
 music_data:
-;	.include "music.sinc"
+	.include "../audio/game_audio.s"
 
 .if(FT_SFX_ENABLE)
 sounds_data:

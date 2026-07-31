@@ -13,13 +13,6 @@
 //Debug functions
 #include <stdio.h>
 
-// Writes a string directly to Mesen's Output / Log console
-void debug_print(const char *str) {
-    while (*str) {
-        *(volatile unsigned char*)0x4018 = *str++;
-    }
-}
-
 
 const unsigned char Player_front[]={
 
@@ -31,6 +24,8 @@ const unsigned char Player_front[]={
 
 };
 
+// Matches the label exported in loading_jingle.s
+extern const unsigned char loading_jingle[];
 
 void fade_from_black(void) {
     unsigned char i;
@@ -55,6 +50,7 @@ void fade_to_black(void) {
 }
 
 void show_loading_scr(void) {
+    music_play(1); // Play the loading jingle
     ppu_off();
     bank_bg(1);
     pal_bg(loading_scr_palette);
@@ -64,6 +60,7 @@ void show_loading_scr(void) {
 }
 
 void show_game_scr(void) {
+    music_play(0); // Play the game music
     ppu_off();
     bank_bg(0);
     pal_bg(map_palette);
@@ -112,7 +109,6 @@ void move_player(unsigned char pad, unsigned char *player_x, unsigned char *play
         // Check top-left and bottom-left corners of player box at new position
         if (is_solid_tile(new_x + BOX_LEFT, *player_y + BOX_TOP) ||
             is_solid_tile(new_x + BOX_LEFT, *player_y + BOX_BOTTOM)) {
-            debug_print("Blocked by wall!\n");
             // Hit a wall! Don't update player_x
         } else {
             *player_x = new_x; // Walkable!
@@ -123,7 +119,6 @@ void move_player(unsigned char pad, unsigned char *player_x, unsigned char *play
         if (is_solid_tile(new_x + BOX_RIGHT, *player_y + BOX_TOP) ||
             is_solid_tile(new_x + BOX_RIGHT, *player_y + BOX_BOTTOM)) {
             // Hit a wall!
-            debug_print("Blocked by wall!\n");
         } else {
             *player_x = new_x;
         }
@@ -136,7 +131,6 @@ void move_player(unsigned char pad, unsigned char *player_x, unsigned char *play
         if (is_solid_tile(*player_x + BOX_LEFT, new_y + BOX_TOP) ||
             is_solid_tile(*player_x + BOX_RIGHT, new_y + BOX_TOP)) {
             // Hit a wall!
-            debug_print("Blocked by wall!\n");
         } else {
             *player_y = new_y;
         }
@@ -145,7 +139,6 @@ void move_player(unsigned char pad, unsigned char *player_x, unsigned char *play
         // Check bottom-left and bottom-right corners
         if (is_solid_tile(*player_x + BOX_LEFT, new_y + BOX_BOTTOM) ||
             is_solid_tile(*player_x + BOX_RIGHT, new_y + BOX_BOTTOM)) {
-            debug_print("Blocked by wall!\n");
             // Hit a wall!
         } else {
             *player_y = new_y;
@@ -175,7 +168,6 @@ void main(void) {
     delay(30);
     show_game_scr();
 
-    debug_print("Game started!\n");
 
     while (1) {
         ppu_wait_nmi();
