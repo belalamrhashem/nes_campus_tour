@@ -32,7 +32,7 @@ game_audio_music_data:
 
 ; background1
 @song0ch0:
-	.byte $fb,$06
+	.byte $fb,$08
 @song0ch0loop:
 @ref0:
 	.byte $80,$4b,$53,$59,$63,$4b,$53,$59,$62,$81

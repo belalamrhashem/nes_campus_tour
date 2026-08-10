@@ -243,7 +243,6 @@ detectNTSC:
 
 .segment "RODATA"
 
-
 music_data:
 	.include "../audio/game_audio.s"
 
@@ -259,8 +258,10 @@ sounds_data:
 .endif
 
 .segment "CHARS"
-.incbin "../graphics/test_map/tiles.chr"
-.incbin "../graphics/loading_scr/tiles.chr" 
+;.incbin "../graphics/test_map/tiles.chr"
+.incbin "../graphics/stephenson/tileset.chr"
+.incbin "../graphics/sprites/tileset.chr" 
+
 
 .segment "VECTORS"
 
