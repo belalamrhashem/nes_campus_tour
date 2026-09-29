@@ -47,6 +47,7 @@ const char* const dialogue_text[] = {
     "...",                     // text_id 0 - reserved/unused
     "      HI, WELCOME TO CAMPUS!",   // text_id 1 (matches npc_list[0].text_id)
     "THIS IS THE STEPHENSON BUILDING.", // text_id 2
+    "WE HOPE TO SEE YOU IN SEPTEMBER!"
 };
 #define NUM_DIALOGUE_LINES (sizeof(dialogue_text) / sizeof(dialogue_text[0]))
 
@@ -281,29 +282,33 @@ void init_map_npcs(void) {
 
     //npc 1
     npc_list[0].active = 1;
-    
     // Set the world coordinates (adjust these to fit your map!)
     npc_list[0].x = 150; 
     npc_list[0].y = 20;
-    
     // Assign a valid metasprite array (using your player sprite as a placeholder)
     npc_list[0].sprite = npc; 
-    
     // Assign a dialogue ID 
     npc_list[0].text_id = 1;
 
     //npc 2
     npc_list[1].active = 1;
-    
     // Set the world coordinates (adjust these to fit your map!)
     npc_list[1].x = 450; 
     npc_list[1].y = 60;
-    
     // Assign a valid metasprite array (using your player sprite as a placeholder)
     npc_list[1].sprite = npc; 
-    
     // Assign a dialogue ID 
     npc_list[1].text_id = 2;
+
+    //npc 3
+    npc_list[2].active = 1;
+    // Set the world coordinates (adjust these to fit your map!)
+    npc_list[2].x = 20; 
+    npc_list[2].y = 70;
+    // Assign a valid metasprite array (using your player sprite as a placeholder)
+    npc_list[2].sprite = npc; 
+    // Assign a dialogue ID 
+    npc_list[2].text_id = 3;
 }
 
 //checks if npc is within interact_range of the player in both x and y directions
@@ -537,11 +542,11 @@ void main(void) {
     }
 
     for (i = 0; i < MAX_NPCS; i++) {
-        if (npc_list[i].active) {
-            if (npc_list[i].x + 16 >= cam_x && npc_list[i].x <= cam_x + 256) {
-                draw_npc_x = (unsigned char)(npc_list[i].x - cam_x);
-                oam_id = oam_meta_spr(draw_npc_x, npc_list[i].y, oam_id, npc_list[i].sprite);
-            }
+        if (npc_list[i].active &&
+            npc_list[i].x >= cam_x &&
+            npc_list[i].x + 16 <= cam_x + SCREEN_W) {
+            draw_npc_x = (unsigned char)(npc_list[i].x - cam_x);
+            oam_id = oam_meta_spr(draw_npc_x, npc_list[i].y, oam_id, npc_list[i].sprite);
         }
     }
 
