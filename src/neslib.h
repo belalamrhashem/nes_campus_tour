@@ -165,7 +165,7 @@ void __fastcall__ bank_spr(unsigned char n);
 // select current chr bank for background, 0..1
 void __fastcall__ bank_bg(unsigned char n);
 
-
+void __fastcall__ set_chr_bank(unsigned char bank);
 
 // get random number 0..255 or 0..65535
 unsigned char __fastcall__ rand8(void);

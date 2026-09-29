@@ -9,7 +9,7 @@
 	.export _oam_clear,_oam_size,_oam_spr,_oam_meta_spr,_oam_hide_rest
 	.export _ppu_wait_frame,_ppu_wait_nmi
 	.export _scroll,_split
-	.export _bank_spr,_bank_bg
+	.export _bank_spr,_bank_bg, _set_chr_bank
 	.export _vram_read,_vram_write
 	.export _music_play,_music_stop,_music_pause
 	.export _sfx_play,_sample_play
@@ -684,6 +684,11 @@ _bank_spr:
 
 	rts
 
+;void __fastcall__ set_chr_bank(unsigned char bank)
+
+_set_chr_bank:
+	sta $8000
+	rts
 
 
 ;void __fastcall__ bank_bg(unsigned char n);
@@ -702,7 +707,6 @@ _bank_bg:
 	sta <PPU_CTRL_VAR
 
 	rts
-
 
 
 ;void __fastcall__ vram_read(unsigned char *dst,unsigned int size);

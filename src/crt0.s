@@ -258,8 +258,10 @@ sounds_data:
 .endif
 
 .segment "CHARS"
-;.incbin "../graphics/test_map/tiles.chr"
-.incbin "../graphics/stephenson/tileset.chr"
+.incbin "../graphics/loading_scr/tiles_new.chr"
+
+.segment "CHARS2"
+.incbin "../graphics/stephenson/tileset_with_chars.chr"
 .incbin "../graphics/sprites/tileset.chr" 
 
 

@@ -1,0 +1,810 @@
+Modules list:
+-------------
+crt0.s.25972.0.o:
+    CODE              Offs=000000  Size=000D63  Align=00001  Fill=0000
+    RODATA            Offs=000000  Size=0000AD  Align=00001  Fill=0000
+    BSS               Offs=000000  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000000  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=00002B  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+    HEADER            Offs=000000  Size=000010  Align=00001  Fill=0000
+    STARTUP           Offs=000000  Size=0000C6  Align=00001  Fill=0000
+    SAMPLES           Offs=000000  Size=000000  Align=00001  Fill=0000
+    CHARS             Offs=000000  Size=001000  Align=00001  Fill=0000
+    CHARS2            Offs=000000  Size=002000  Align=00001  Fill=0000
+    VECTORS           Offs=000000  Size=000006  Align=00001  Fill=0000
+main.c.25972.1.o:
+    CODE              Offs=000D63  Size=000FF9  Align=00001  Fill=0000
+    RODATA            Offs=0000AD  Size=000CCD  Align=00001  Fill=0000
+    BSS               Offs=000000  Size=00003C  Align=00001  Fill=0000
+    DATA              Offs=000000  Size=000006  Align=00001  Fill=0000
+    ZEROPAGE          Offs=00002B  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+C:\Users\Belal\OneDrive\Documents\cc65-snapshot-win32\lib/nes.lib(addysp.o):
+    CODE              Offs=001D5C  Size=00000E  Align=00001  Fill=0000
+    RODATA            Offs=000D7A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00003C  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000006  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=00002B  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+C:\Users\Belal\OneDrive\Documents\cc65-snapshot-win32\lib/nes.lib(aslax3.o):
+    CODE              Offs=001D6A  Size=00000E  Align=00001  Fill=0000
+    RODATA            Offs=000D7A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00003C  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000006  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=00002B  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+C:\Users\Belal\OneDrive\Documents\cc65-snapshot-win32\lib/nes.lib(aslax4.o):
+    CODE              Offs=001D78  Size=000011  Align=00001  Fill=0000
+    RODATA            Offs=000D7A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00003C  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000006  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=00002B  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+C:\Users\Belal\OneDrive\Documents\cc65-snapshot-win32\lib/nes.lib(condes.o):
+    CODE              Offs=001D89  Size=00000C  Align=00001  Fill=0000
+    RODATA            Offs=000D7A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00003C  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000006  Size=000025  Align=00001  Fill=0000
+    ZEROPAGE          Offs=00002B  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+    ONCE              Offs=000000  Size=00000C  Align=00001  Fill=0000
+C:\Users\Belal\OneDrive\Documents\cc65-snapshot-win32\lib/nes.lib(copydata.o):
+    CODE              Offs=001D95  Size=00002D  Align=00001  Fill=0000
+    RODATA            Offs=000D7A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00003C  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=00002B  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=00002B  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+C:\Users\Belal\OneDrive\Documents\cc65-snapshot-win32\lib/nes.lib(decsp1.o):
+    CODE              Offs=001DC2  Size=000009  Align=00001  Fill=0000
+    RODATA            Offs=000D7A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00003C  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=00002B  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=00002B  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+C:\Users\Belal\OneDrive\Documents\cc65-snapshot-win32\lib/nes.lib(decsp2.o):
+    CODE              Offs=001DCB  Size=00000D  Align=00001  Fill=0000
+    RODATA            Offs=000D7A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00003C  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=00002B  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=00002B  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+C:\Users\Belal\OneDrive\Documents\cc65-snapshot-win32\lib/nes.lib(decsp3.o):
+    CODE              Offs=001DD8  Size=00000D  Align=00001  Fill=0000
+    RODATA            Offs=000D7A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00003C  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=00002B  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=00002B  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+C:\Users\Belal\OneDrive\Documents\cc65-snapshot-win32\lib/nes.lib(decsp5.o):
+    CODE              Offs=001DE5  Size=00000D  Align=00001  Fill=0000
+    RODATA            Offs=000D7A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00003C  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=00002B  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=00002B  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+C:\Users\Belal\OneDrive\Documents\cc65-snapshot-win32\lib/nes.lib(icmp.o):
+    CODE              Offs=001DF2  Size=00002E  Align=00001  Fill=0000
+    RODATA            Offs=000D7A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00003C  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=00002B  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=00002B  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+C:\Users\Belal\OneDrive\Documents\cc65-snapshot-win32\lib/nes.lib(incsp1.o):
+    CODE              Offs=001E20  Size=000007  Align=00001  Fill=0000
+    RODATA            Offs=000D7A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00003C  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=00002B  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=00002B  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+C:\Users\Belal\OneDrive\Documents\cc65-snapshot-win32\lib/nes.lib(incsp2.o):
+    CODE              Offs=001E27  Size=000016  Align=00001  Fill=0000
+    RODATA            Offs=000D7A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00003C  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=00002B  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=00002B  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+C:\Users\Belal\OneDrive\Documents\cc65-snapshot-win32\lib/nes.lib(incsp3.o):
+    CODE              Offs=001E3D  Size=000005  Align=00001  Fill=0000
+    RODATA            Offs=000D7A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00003C  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=00002B  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=00002B  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+C:\Users\Belal\OneDrive\Documents\cc65-snapshot-win32\lib/nes.lib(incsp5.o):
+    CODE              Offs=001E42  Size=000005  Align=00001  Fill=0000
+    RODATA            Offs=000D7A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00003C  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=00002B  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=00002B  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+C:\Users\Belal\OneDrive\Documents\cc65-snapshot-win32\lib/nes.lib(incsp6.o):
+    CODE              Offs=001E47  Size=000005  Align=00001  Fill=0000
+    RODATA            Offs=000D7A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00003C  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=00002B  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=00002B  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+C:\Users\Belal\OneDrive\Documents\cc65-snapshot-win32\lib/nes.lib(incsp7.o):
+    CODE              Offs=001E4C  Size=000005  Align=00001  Fill=0000
+    RODATA            Offs=000D7A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00003C  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=00002B  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=00002B  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+C:\Users\Belal\OneDrive\Documents\cc65-snapshot-win32\lib/nes.lib(incsp8.o):
+    CODE              Offs=001E51  Size=000005  Align=00001  Fill=0000
+    RODATA            Offs=000D7A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00003C  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=00002B  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=00002B  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+C:\Users\Belal\OneDrive\Documents\cc65-snapshot-win32\lib/nes.lib(mulax7.o):
+    CODE              Offs=001E56  Size=000019  Align=00001  Fill=0000
+    RODATA            Offs=000D7A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00003C  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=00002B  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=00002B  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+C:\Users\Belal\OneDrive\Documents\cc65-snapshot-win32\lib/nes.lib(popa.o):
+    CODE              Offs=001E6F  Size=00000C  Align=00001  Fill=0000
+    RODATA            Offs=000D7A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00003C  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=00002B  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=00002B  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+C:\Users\Belal\OneDrive\Documents\cc65-snapshot-win32\lib/nes.lib(pusha.o):
+    CODE              Offs=001E7B  Size=000016  Align=00001  Fill=0000
+    RODATA            Offs=000D7A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00003C  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=00002B  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=00002B  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+C:\Users\Belal\OneDrive\Documents\cc65-snapshot-win32\lib/nes.lib(pushax.o):
+    CODE              Offs=001E91  Size=00001A  Align=00001  Fill=0000
+    RODATA            Offs=000D7A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00003C  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=00002B  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=00002B  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+C:\Users\Belal\OneDrive\Documents\cc65-snapshot-win32\lib/nes.lib(pushwsp.o):
+    CODE              Offs=001EAB  Size=00001C  Align=00001  Fill=0000
+    RODATA            Offs=000D7A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00003C  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=00002B  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=00002B  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+C:\Users\Belal\OneDrive\Documents\cc65-snapshot-win32\lib/nes.lib(shrax3.o):
+    CODE              Offs=001EC7  Size=00000E  Align=00001  Fill=0000
+    RODATA            Offs=000D7A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00003C  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=00002B  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=00002B  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+C:\Users\Belal\OneDrive\Documents\cc65-snapshot-win32\lib/nes.lib(sp-compat.o):
+    CODE              Offs=001ED5  Size=000000  Align=00001  Fill=0000
+    RODATA            Offs=000D7A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00003C  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=00002B  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=00002B  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+C:\Users\Belal\OneDrive\Documents\cc65-snapshot-win32\lib/nes.lib(staspidx.o):
+    CODE              Offs=001ED5  Size=000016  Align=00001  Fill=0000
+    RODATA            Offs=000D7A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00003C  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=00002B  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=00002B  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+C:\Users\Belal\OneDrive\Documents\cc65-snapshot-win32\lib/nes.lib(staxsp.o):
+    CODE              Offs=001EEB  Size=00000B  Align=00001  Fill=0000
+    RODATA            Offs=000D7A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00003C  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=00002B  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=00002B  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+C:\Users\Belal\OneDrive\Documents\cc65-snapshot-win32\lib/nes.lib(sub.o):
+    CODE              Offs=001EF6  Size=000015  Align=00001  Fill=0000
+    RODATA            Offs=000D7A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00003C  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=00002B  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=00002B  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+C:\Users\Belal\OneDrive\Documents\cc65-snapshot-win32\lib/nes.lib(subysp.o):
+    CODE              Offs=001F0B  Size=00000D  Align=00001  Fill=0000
+    RODATA            Offs=000D7A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00003C  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=00002B  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=00002B  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+C:\Users\Belal\OneDrive\Documents\cc65-snapshot-win32\lib/nes.lib(zerobss.o):
+    CODE              Offs=001F18  Size=000023  Align=00001  Fill=0000
+    RODATA            Offs=000D7A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00003C  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=00002B  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=00002B  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+C:\Users\Belal\OneDrive\Documents\cc65-snapshot-win32\lib/nes.lib(zeropage.o):
+    CODE              Offs=001F3B  Size=000000  Align=00001  Fill=0000
+    RODATA            Offs=000D7A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00003C  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=00002B  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=00002B  Size=00001A  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+
+
+Segment list:
+-------------
+Name                   Start     End    Size  Align
+----------------------------------------------------
+CHARS                 000000  000FFF  001000  00001
+CHARS2                000000  001FFF  002000  00001
+HEADER                000000  00000F  000010  00001
+NULL                  000000  000000  000000  00001
+SAMPLES               000000  000000  000000  00001
+ZEROPAGE              000000  000044  000045  00001
+DATA                  000300  00032A  00002B  00001
+BSS                   00032B  000366  00003C  00001
+STARTUP               008000  0080C5  0000C6  00001
+CODE                  0080C6  00A000  001F3B  00001
+RODATA                00A001  00AD7A  000D7A  00001
+ONCE                  00ADA6  00ADB1  00000C  00001
+VECTORS               00FFFA  00FFFF  000006  00001
+
+
+Exports list by name:
+---------------------
+NES_CHR_BANKS             000002 REA    NES_MAPPER                000003 REA    
+NES_MIRRORING             000001 REA    NES_PRG_BANKS             000002 REA    
+_Player_back              00ACF5  LA    _Player_front             00ACE4  LA    
+_Player_left              00AD17  LA    _Player_right             00AD06  LA    
+__BSS_LOAD__              00032B  LA    __BSS_RUN__               00032B RLA    
+__BSS_SIZE__              00003C REA    __CODE_LOAD__             0080C6  LA    
+__CODE_RUN__              0080C6  LA    __CODE_SIZE__             001F3B  EA    
+__CONSTRUCTOR_COUNT__     000000 REA    __CONSTRUCTOR_TABLE__     00ADB2 RLA    
+__DATA_LOAD__             00AD7B RLA    __DATA_RUN__              000300 RLA    
+__DATA_SIZE__             00002B REA    __DESTRUCTOR_COUNT__      000000 REA    
+__DESTRUCTOR_TABLE__      00AD7B RLA    __ONCE_LOAD__             00ADA6  LA    
+__ONCE_RUN__              00ADA6  LA    __ONCE_SIZE__             00000C  EA    
+__PRG_FILEOFFS__          000010  EA    __PRG_LAST__              00ADB2  LA    
+__PRG_SIZE__              007FFA  EA    __PRG_START__             008000  LA    
+__RAM_FILEOFFS__          000010  EA    __RAM_LAST__              000367  LA    
+__RAM_SIZE__              000600 REA    __RAM_START__             000300 RLA    
+__RODATA_LOAD__           00A001  LA    __RODATA_RUN__            00A001  LA    
+__RODATA_SIZE__           000D7A  EA    __SRAM_SIZE__             002000  EA    
+__SRAM_START__            006000  EA    __STACKSIZE__             000100  EA    
+__STARTUP_LOAD__          008000  LA    __STARTUP_RUN__           008000  LA    
+__STARTUP_SIZE__          0000C6  EA    __STARTUP__               000001 REA    
+__ZP_FILEOFFS__           000000  EA    __ZP_LAST__               000045  LA    
+__ZP_SIZE__               000100  EA    __ZP_START__              000000  LA    
+_bank_bg                  008581 RLA    _bank_spr                 00856D RLA    
+_build_text_row           0096C0  LA    _char_to_tile             009648  LA    
+_current_npc              000300  LA    _delay                    008745 RLA    
+_dialogue_needs_close     000302  LA    _dialogue_needs_open      000301  LA    
+_dialogue_row_buf         000347  LA    _dialogue_text            00ACDE  LA    
+_draw_dialogue_box        009747  LA    _draw_dialogue_row        00957F  LA    
+_erase_dialogue_box       009866  LA    _exit                     008000  LA    
+_fade_from_black          008E53  LA    _fade_to_black            008E86  LA    
+_flush_vram_update        00867B  LA    _game_state               000303  LA    
+_get_ppu_ctrl_var         00840C  LA    _init_map_npcs            009418  LA    
+_is_solid_tile            008F19  LA    _load_full_map            008E29  LA    
+_loading_scr_new          00A8BE  LA    _loading_scr_palette      00ACBE  LA    
+_main                     009A6E RLA    _map_left3                00A0BE  LA    
+_map_palette              00A0AE  LA    _map_right3               00A4BE  LA    
+_memfill                  008711  LA    _move_player              008FD2  LA    
+_music_pause              008922  EA    _music_play               0088B5 REA    
+_music_stop               008877  EA    _nesclock                 008740  LA    
+_npc                      00AD28  LA    _npc_in_range             009487  LA    
+_npc_list                 00032B  LA    _oam_clear                008414 RLA    
+_oam_clear_fast           0080C6  LA    _oam_hide_rest            0084AA RLA    
+_oam_meta_spr             008460 RLA    _oam_meta_spr_clip        0081D9  LA    
+_oam_meta_spr_pal         008189  LA    _oam_size                 008422  LA    
+_oam_spr                  008434  LA    _pad_new                  000305  LA    
+_pad_old                  000304  LA    _pad_poll                 0085F5 RLA    
+_pad_state                008640  LA    _pad_trigger              008635  LA    
+_pal_all                  008377  LA    _pal_bg                   008391 RLA    
+_pal_bg_bright            0083D1  LA    _pal_bright               0083DF RLA    
+_pal_clear                0083B4  LA    _pal_col                  0083A4  LA    
+_pal_spr                  00839B RLA    _pal_spr_bright           0083C3  LA    
+_ppu_mask                 008404  LA    _ppu_off                  0083E6 RLA    
+_ppu_on_all               0083EF RLA    _ppu_on_bg                0083F8  LA    
+_ppu_on_spr               0083FE  LA    _ppu_system               008407  LA    
+_ppu_wait_frame           0084B7  LA    _ppu_wait_nmi             0084CC RLA    
+_rand16                   008665  LA    _rand8                    00865A  LA    
+_restore_dialogue_attr    0099F5  LA    _sample_play              0085F4  LA    
+_scroll                   00850E RLA    _set_chr_bank             00857D RLA    
+_set_dialogue_attr        009967  LA    _set_ppu_ctrl_var         008411  LA    
+_set_rand                 00866D  LA    _set_vram_update          008672  LA    
+_sfx_play                 0085E3  LA    _show_game_scr            008EF0  LA    
+_show_loading_scr         008EBF  LA    _split                    008541  LA    
+_spr_palette              00ACCE  LA    _update_camera            0092B4  LA    
+_vram_adr                 0086D0 RLA    _vram_fill                0086DB  LA    
+_vram_inc                 0086FD  LA    _vram_put                 0086D7  LA    
+_vram_read                008592  LA    _vram_unrle               0084D7  LA    
+_vram_write               0085BC RLA    addysp                    009E23 RLA    
+addysp1                   009E22 RLA    aslax3                    009E30  LA    
+aslax4                    009E3E  LA    c_sp                      00002B RLZ    
+condes                    000306  LA    copydata                  009E5B RLA    
+decsp1                    009E88 RLA    decsp2                    009E91 RLA    
+decsp3                    009E9E RLA    decsp5                    009EAB RLA    
+donelib                   009E4F  LA    incsp1                    009EE6 RLA    
+incsp2                    009EF5 RLA    incsp3                    009F03 RLA    
+incsp5                    009F08 RLA    incsp6                    009F0D RLA    
+incsp7                    009F12 RLA    incsp8                    009F17 RLA    
+initlib                   00ADA6 RLA    mulax7                    009F1C RLA    
+popa                      009F35 RLA    popax                     009EED RLA    
+ptr1                      000033 RLZ    ptr2                      000035 RLZ    
+ptr3                      000037  LZ    ptr4                      000039  LZ    
+push0                     009F57 RLA    pusha                     009F45 RLA    
+pusha0                    009F59 RLA    pusha0sp                  009F41  LA    
+pushax                    009F5B RLA    pushaysp                  009F43  LA    
+pushw0sp                  009F71  LA    pushwysp                  009F73 RLA    
+regbank                   00003F  LZ    regsave                   00002F  LZ    
+shlax3                    009E30 RLA    shlax4                    009E3E RLA    
+shrax3                    009F8D RLA    sp                        00002B RLZ    
+sreg                      00002D RLZ    staspidx                  009F9B RLA    
+stax0sp                   009FB1 RLA    staxysp                   009FB3 RLA    
+subysp                    009FD1 RLA    tmp1                      00003B RLZ    
+tmp2                      00003C  LZ    tmp3                      00003D  LZ    
+tmp4                      00003E  LZ    tosicmp                   009EBA RLA    
+tosicmp0                  009EB8  LA    tossuba0                  009FBC RLA    
+tossubax                  009FBE RLA    zerobss                   009FDE RLA    
+
+
+
+Exports list by value:
+----------------------
+__DESTRUCTOR_COUNT__      000000 REA    __ZP_FILEOFFS__           000000  EA    
+__ZP_START__              000000  LA    __CONSTRUCTOR_COUNT__     000000 REA    
+__STARTUP__               000001 REA    NES_MIRRORING             000001 REA    
+NES_CHR_BANKS             000002 REA    NES_PRG_BANKS             000002 REA    
+NES_MAPPER                000003 REA    __ONCE_SIZE__             00000C  EA    
+__PRG_FILEOFFS__          000010  EA    __RAM_FILEOFFS__          000010  EA    
+__DATA_SIZE__             00002B REA    sp                        00002B RLZ    
+c_sp                      00002B RLZ    sreg                      00002D RLZ    
+regsave                   00002F  LZ    ptr1                      000033 RLZ    
+ptr2                      000035 RLZ    ptr3                      000037  LZ    
+ptr4                      000039  LZ    tmp1                      00003B RLZ    
+__BSS_SIZE__              00003C REA    tmp2                      00003C  LZ    
+tmp3                      00003D  LZ    tmp4                      00003E  LZ    
+regbank                   00003F  LZ    __ZP_LAST__               000045  LA    
+__STARTUP_SIZE__          0000C6  EA    __ZP_SIZE__               000100  EA    
+__STACKSIZE__             000100  EA    __RAM_START__             000300 RLA    
+_current_npc              000300  LA    __DATA_RUN__              000300 RLA    
+_dialogue_needs_open      000301  LA    _dialogue_needs_close     000302  LA    
+_game_state               000303  LA    _pad_old                  000304  LA    
+_pad_new                  000305  LA    condes                    000306  LA    
+_npc_list                 00032B  LA    __BSS_LOAD__              00032B  LA    
+__BSS_RUN__               00032B RLA    _dialogue_row_buf         000347  LA    
+__RAM_LAST__              000367  LA    __RAM_SIZE__              000600 REA    
+__RODATA_SIZE__           000D7A  EA    __CODE_SIZE__             001F3B  EA    
+__SRAM_SIZE__             002000  EA    __SRAM_START__            006000  EA    
+__PRG_SIZE__              007FFA  EA    __STARTUP_LOAD__          008000  LA    
+__STARTUP_RUN__           008000  LA    _exit                     008000  LA    
+__PRG_START__             008000  LA    _oam_clear_fast           0080C6  LA    
+__CODE_RUN__              0080C6  LA    __CODE_LOAD__             0080C6  LA    
+_oam_meta_spr_pal         008189  LA    _oam_meta_spr_clip        0081D9  LA    
+_pal_all                  008377  LA    _pal_bg                   008391 RLA    
+_pal_spr                  00839B RLA    _pal_col                  0083A4  LA    
+_pal_clear                0083B4  LA    _pal_spr_bright           0083C3  LA    
+_pal_bg_bright            0083D1  LA    _pal_bright               0083DF RLA    
+_ppu_off                  0083E6 RLA    _ppu_on_all               0083EF RLA    
+_ppu_on_bg                0083F8  LA    _ppu_on_spr               0083FE  LA    
+_ppu_mask                 008404  LA    _ppu_system               008407  LA    
+_get_ppu_ctrl_var         00840C  LA    _set_ppu_ctrl_var         008411  LA    
+_oam_clear                008414 RLA    _oam_size                 008422  LA    
+_oam_spr                  008434  LA    _oam_meta_spr             008460 RLA    
+_oam_hide_rest            0084AA RLA    _ppu_wait_frame           0084B7  LA    
+_ppu_wait_nmi             0084CC RLA    _vram_unrle               0084D7  LA    
+_scroll                   00850E RLA    _split                    008541  LA    
+_bank_spr                 00856D RLA    _set_chr_bank             00857D RLA    
+_bank_bg                  008581 RLA    _vram_read                008592  LA    
+_vram_write               0085BC RLA    _sfx_play                 0085E3  LA    
+_sample_play              0085F4  LA    _pad_poll                 0085F5 RLA    
+_pad_trigger              008635  LA    _pad_state                008640  LA    
+_rand8                    00865A  LA    _rand16                   008665  LA    
+_set_rand                 00866D  LA    _set_vram_update          008672  LA    
+_flush_vram_update        00867B  LA    _vram_adr                 0086D0 RLA    
+_vram_put                 0086D7  LA    _vram_fill                0086DB  LA    
+_vram_inc                 0086FD  LA    _memfill                  008711  LA    
+_nesclock                 008740  LA    _delay                    008745 RLA    
+_music_stop               008877  EA    _music_play               0088B5 REA    
+_music_pause              008922  EA    _load_full_map            008E29  LA    
+_fade_from_black          008E53  LA    _fade_to_black            008E86  LA    
+_show_loading_scr         008EBF  LA    _show_game_scr            008EF0  LA    
+_is_solid_tile            008F19  LA    _move_player              008FD2  LA    
+_update_camera            0092B4  LA    _init_map_npcs            009418  LA    
+_npc_in_range             009487  LA    _draw_dialogue_row        00957F  LA    
+_char_to_tile             009648  LA    _build_text_row           0096C0  LA    
+_draw_dialogue_box        009747  LA    _erase_dialogue_box       009866  LA    
+_set_dialogue_attr        009967  LA    _restore_dialogue_attr    0099F5  LA    
+_main                     009A6E RLA    addysp1                   009E22 RLA    
+addysp                    009E23 RLA    shlax3                    009E30 RLA    
+aslax3                    009E30  LA    shlax4                    009E3E RLA    
+aslax4                    009E3E  LA    donelib                   009E4F  LA    
+copydata                  009E5B RLA    decsp1                    009E88 RLA    
+decsp2                    009E91 RLA    decsp3                    009E9E RLA    
+decsp5                    009EAB RLA    tosicmp0                  009EB8  LA    
+tosicmp                   009EBA RLA    incsp1                    009EE6 RLA    
+popax                     009EED RLA    incsp2                    009EF5 RLA    
+incsp3                    009F03 RLA    incsp5                    009F08 RLA    
+incsp6                    009F0D RLA    incsp7                    009F12 RLA    
+incsp8                    009F17 RLA    mulax7                    009F1C RLA    
+popa                      009F35 RLA    pusha0sp                  009F41  LA    
+pushaysp                  009F43  LA    pusha                     009F45 RLA    
+push0                     009F57 RLA    pusha0                    009F59 RLA    
+pushax                    009F5B RLA    pushw0sp                  009F71  LA    
+pushwysp                  009F73 RLA    shrax3                    009F8D RLA    
+staspidx                  009F9B RLA    stax0sp                   009FB1 RLA    
+staxysp                   009FB3 RLA    tossuba0                  009FBC RLA    
+tossubax                  009FBE RLA    subysp                    009FD1 RLA    
+zerobss                   009FDE RLA    __RODATA_LOAD__           00A001  LA    
+__RODATA_RUN__            00A001  LA    _map_palette              00A0AE  LA    
+_map_left3                00A0BE  LA    _map_right3               00A4BE  LA    
+_loading_scr_new          00A8BE  LA    _loading_scr_palette      00ACBE  LA    
+_spr_palette              00ACCE  LA    _dialogue_text            00ACDE  LA    
+_Player_front             00ACE4  LA    _Player_back              00ACF5  LA    
+_Player_right             00AD06  LA    _Player_left              00AD17  LA    
+_npc                      00AD28  LA    __DATA_LOAD__             00AD7B RLA    
+__DESTRUCTOR_TABLE__      00AD7B RLA    __ONCE_LOAD__             00ADA6  LA    
+initlib                   00ADA6 RLA    __ONCE_RUN__              00ADA6  LA    
+__PRG_LAST__              00ADB2  LA    __CONSTRUCTOR_TABLE__     00ADB2 RLA    
+
+
+
+Imports list:
+-------------
+NES_CHR_BANKS ([linker generated]):
+    crt0.s.25972.0.o          src/crt0.s:22
+NES_MAPPER ([linker generated]):
+    crt0.s.25972.0.o          src/crt0.s:22
+NES_MIRRORING ([linker generated]):
+    crt0.s.25972.0.o          src/crt0.s:22
+NES_PRG_BANKS ([linker generated]):
+    crt0.s.25972.0.o          src/crt0.s:22
+_Player_back (main.c.25972.1.o):
+_Player_front (main.c.25972.1.o):
+_Player_left (main.c.25972.1.o):
+_Player_right (main.c.25972.1.o):
+__BSS_LOAD__ ([linker generated]):
+__BSS_RUN__ ([linker generated]):
+    zerobss.o                 common/zerobss.s:8
+__BSS_SIZE__ ([linker generated]):
+    zerobss.o                 common/zerobss.s:8
+__CODE_LOAD__ ([linker generated]):
+__CODE_RUN__ ([linker generated]):
+__CODE_SIZE__ ([linker generated]):
+__CONSTRUCTOR_COUNT__ ([linker generated]):
+    condes.o                  runtime/condes.s:18
+__CONSTRUCTOR_TABLE__ ([linker generated]):
+    condes.o                  runtime/condes.s:18
+__DATA_LOAD__ ([linker generated]):
+    copydata.o                common/copydata.s:8
+__DATA_RUN__ ([linker generated]):
+    copydata.o                common/copydata.s:8
+__DATA_SIZE__ ([linker generated]):
+    copydata.o                common/copydata.s:8
+__DESTRUCTOR_COUNT__ ([linker generated]):
+    condes.o                  runtime/condes.s:19
+__DESTRUCTOR_TABLE__ ([linker generated]):
+    condes.o                  runtime/condes.s:19
+__ONCE_LOAD__ ([linker generated]):
+__ONCE_RUN__ ([linker generated]):
+__ONCE_SIZE__ ([linker generated]):
+__PRG_FILEOFFS__ ([linker generated]):
+__PRG_LAST__ ([linker generated]):
+__PRG_SIZE__ ([linker generated]):
+__PRG_START__ ([linker generated]):
+__RAM_FILEOFFS__ ([linker generated]):
+__RAM_LAST__ ([linker generated]):
+__RAM_SIZE__ ([linker generated]):
+    crt0.s.25972.0.o          src/crt0.s:17
+__RAM_START__ ([linker generated]):
+    crt0.s.25972.0.o          src/crt0.s:17
+__RODATA_LOAD__ ([linker generated]):
+__RODATA_RUN__ ([linker generated]):
+__RODATA_SIZE__ ([linker generated]):
+__SRAM_SIZE__ ([linker generated]):
+__SRAM_START__ ([linker generated]):
+__STACKSIZE__ ([linker generated]):
+__STARTUP_LOAD__ ([linker generated]):
+__STARTUP_RUN__ ([linker generated]):
+__STARTUP_SIZE__ ([linker generated]):
+__STARTUP__ (crt0.s.25972.0.o):
+    main.c.25972.1.o          build/main.c.25972.1.s:24
+__ZP_FILEOFFS__ ([linker generated]):
+__ZP_LAST__ ([linker generated]):
+__ZP_SIZE__ ([linker generated]):
+__ZP_START__ ([linker generated]):
+_bank_bg (crt0.s.25972.0.o):
+    main.c.25972.1.o          build/main.c.25972.1.s:38
+_bank_spr (crt0.s.25972.0.o):
+    main.c.25972.1.o          build/main.c.25972.1.s:37
+_build_text_row (main.c.25972.1.o):
+_char_to_tile (main.c.25972.1.o):
+_current_npc (main.c.25972.1.o):
+_delay (crt0.s.25972.0.o):
+    main.c.25972.1.o          build/main.c.25972.1.s:42
+_dialogue_needs_close (main.c.25972.1.o):
+_dialogue_needs_open (main.c.25972.1.o):
+_dialogue_row_buf (main.c.25972.1.o):
+_dialogue_text (main.c.25972.1.o):
+_draw_dialogue_box (main.c.25972.1.o):
+_draw_dialogue_row (main.c.25972.1.o):
+_erase_dialogue_box (main.c.25972.1.o):
+_exit (crt0.s.25972.0.o):
+_fade_from_black (main.c.25972.1.o):
+_fade_to_black (main.c.25972.1.o):
+_flush_vram_update (crt0.s.25972.0.o):
+_game_state (main.c.25972.1.o):
+_get_ppu_ctrl_var (crt0.s.25972.0.o):
+_init_map_npcs (main.c.25972.1.o):
+_is_solid_tile (main.c.25972.1.o):
+_load_full_map (main.c.25972.1.o):
+_loading_scr_new (main.c.25972.1.o):
+_loading_scr_palette (main.c.25972.1.o):
+_main (main.c.25972.1.o):
+    crt0.s.25972.0.o          src/crt0.s:14
+_map_left3 (main.c.25972.1.o):
+_map_palette (main.c.25972.1.o):
+_map_right3 (main.c.25972.1.o):
+_memfill (crt0.s.25972.0.o):
+_move_player (main.c.25972.1.o):
+_music_pause (crt0.s.25972.0.o):
+_music_play (crt0.s.25972.0.o):
+    main.c.25972.1.o          build/main.c.25972.1.s:34
+_music_stop (crt0.s.25972.0.o):
+_nesclock (crt0.s.25972.0.o):
+_npc (main.c.25972.1.o):
+_npc_in_range (main.c.25972.1.o):
+_npc_list (main.c.25972.1.o):
+_oam_clear (crt0.s.25972.0.o):
+    main.c.25972.1.o          build/main.c.25972.1.s:31
+_oam_clear_fast (crt0.s.25972.0.o):
+_oam_hide_rest (crt0.s.25972.0.o):
+    main.c.25972.1.o          build/main.c.25972.1.s:33
+_oam_meta_spr (crt0.s.25972.0.o):
+    main.c.25972.1.o          build/main.c.25972.1.s:32
+_oam_meta_spr_clip (crt0.s.25972.0.o):
+_oam_meta_spr_pal (crt0.s.25972.0.o):
+_oam_size (crt0.s.25972.0.o):
+_oam_spr (crt0.s.25972.0.o):
+_pad_new (main.c.25972.1.o):
+_pad_old (main.c.25972.1.o):
+_pad_poll (crt0.s.25972.0.o):
+    main.c.25972.1.o          build/main.c.25972.1.s:35
+_pad_state (crt0.s.25972.0.o):
+_pad_trigger (crt0.s.25972.0.o):
+_pal_all (crt0.s.25972.0.o):
+_pal_bg (crt0.s.25972.0.o):
+    main.c.25972.1.o          build/main.c.25972.1.s:25
+_pal_bg_bright (crt0.s.25972.0.o):
+_pal_bright (crt0.s.25972.0.o):
+    main.c.25972.1.o          build/main.c.25972.1.s:27
+_pal_clear (crt0.s.25972.0.o):
+_pal_col (crt0.s.25972.0.o):
+_pal_spr (crt0.s.25972.0.o):
+    main.c.25972.1.o          build/main.c.25972.1.s:26
+_pal_spr_bright (crt0.s.25972.0.o):
+_ppu_mask (crt0.s.25972.0.o):
+_ppu_off (crt0.s.25972.0.o):
+    main.c.25972.1.o          build/main.c.25972.1.s:29
+_ppu_on_all (crt0.s.25972.0.o):
+    main.c.25972.1.o          build/main.c.25972.1.s:30
+_ppu_on_bg (crt0.s.25972.0.o):
+_ppu_on_spr (crt0.s.25972.0.o):
+_ppu_system (crt0.s.25972.0.o):
+_ppu_wait_frame (crt0.s.25972.0.o):
+_ppu_wait_nmi (crt0.s.25972.0.o):
+    main.c.25972.1.o          build/main.c.25972.1.s:28
+_rand16 (crt0.s.25972.0.o):
+_rand8 (crt0.s.25972.0.o):
+_restore_dialogue_attr (main.c.25972.1.o):
+_sample_play (crt0.s.25972.0.o):
+_scroll (crt0.s.25972.0.o):
+    main.c.25972.1.o          build/main.c.25972.1.s:36
+_set_chr_bank (crt0.s.25972.0.o):
+    main.c.25972.1.o          build/main.c.25972.1.s:39
+_set_dialogue_attr (main.c.25972.1.o):
+_set_ppu_ctrl_var (crt0.s.25972.0.o):
+_set_rand (crt0.s.25972.0.o):
+_set_vram_update (crt0.s.25972.0.o):
+_sfx_play (crt0.s.25972.0.o):
+_show_game_scr (main.c.25972.1.o):
+_show_loading_scr (main.c.25972.1.o):
+_split (crt0.s.25972.0.o):
+_spr_palette (main.c.25972.1.o):
+_update_camera (main.c.25972.1.o):
+_vram_adr (crt0.s.25972.0.o):
+    main.c.25972.1.o          build/main.c.25972.1.s:40
+_vram_fill (crt0.s.25972.0.o):
+_vram_inc (crt0.s.25972.0.o):
+_vram_put (crt0.s.25972.0.o):
+_vram_read (crt0.s.25972.0.o):
+_vram_unrle (crt0.s.25972.0.o):
+_vram_write (crt0.s.25972.0.o):
+    main.c.25972.1.o          build/main.c.25972.1.s:41
+addysp (addysp.o):
+    incsp8.o                  runtime/incsp8.s:8
+    incsp7.o                  runtime/incsp7.s:8
+    incsp6.o                  runtime/incsp6.s:8
+    incsp5.o                  runtime/incsp5.s:8
+    incsp3.o                  runtime/incsp3.s:8
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+addysp1 (addysp.o):
+    sub.o                     runtime/sub.s:8
+aslax3 (aslax3.o):
+aslax4 (aslax4.o):
+c_sp (zeropage.o):
+    subysp.o                  runtime/subysp.s:9
+    sub.o                     runtime/sub.s:9
+    staxsp.o                  runtime/staxsp.s:8
+    staspidx.o                runtime/staspidx.s:9
+    sp-compat.o               /home/runner/work/cc65/cc65/asminc/zeropage.inc:11
+    pushwsp.o                 runtime/pushwsp.s:8
+    pushax.o                  runtime/pushax.s:8
+    pusha.o                   runtime/pusha.s:8
+    popa.o                    runtime/popa.s:8
+    incsp2.o                  runtime/incsp2.s:8
+    incsp1.o                  runtime/incsp1.s:8
+    icmp.o                    runtime/icmp.s:9
+    decsp5.o                  runtime/decsp5.s:8
+    decsp3.o                  runtime/decsp3.s:8
+    decsp2.o                  runtime/decsp2.s:8
+    decsp1.o                  runtime/decsp1.s:8
+    addysp.o                  runtime/addysp.s:8
+    main.c.25972.1.o          build/main.c.25972.1.s:10
+    crt0.s.25972.0.o          C:\Users\Belal\OneDrive\Documents\cc65-snapshot-win32\asminc/zeropage.inc:11
+condes (condes.o):
+copydata (copydata.o):
+    crt0.s.25972.0.o          src/crt0.s:14
+decsp1 (decsp1.o):
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+decsp2 (decsp2.o):
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+decsp3 (decsp3.o):
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+decsp5 (decsp5.o):
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+donelib (condes.o):
+incsp1 (incsp1.o):
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+incsp2 (incsp2.o):
+    staspidx.o                runtime/staspidx.s:8
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+incsp3 (incsp3.o):
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+incsp5 (incsp5.o):
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+incsp6 (incsp6.o):
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+incsp7 (incsp7.o):
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+incsp8 (incsp8.o):
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+initlib (condes.o):
+    crt0.s.25972.0.o          src/crt0.s:14
+mulax7 (mulax7.o):
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+popa (popa.o):
+    crt0.s.25972.0.o          src/crt0.s:14
+popax (incsp2.o):
+    crt0.s.25972.0.o          src/crt0.s:14
+ptr1 (zeropage.o):
+    zerobss.o                 common/zerobss.s:9
+    staspidx.o                runtime/staspidx.s:9
+    mulax7.o                  runtime/mulax7.s:10
+    copydata.o                common/copydata.s:9
+    main.c.25972.1.o          build/main.c.25972.1.s:11
+ptr2 (zeropage.o):
+    copydata.o                common/copydata.s:9
+ptr3 (zeropage.o):
+ptr4 (zeropage.o):
+push0 (pushax.o):
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+pusha (pusha.o):
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+pusha0 (pushax.o):
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+pusha0sp (pusha.o):
+pushax (pushax.o):
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+pushaysp (pusha.o):
+pushw0sp (pushwsp.o):
+pushwysp (pushwsp.o):
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+regbank (zeropage.o):
+regsave (zeropage.o):
+shlax3 (aslax3.o):
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+shlax4 (aslax4.o):
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+shrax3 (shrax3.o):
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+sp (sp-compat.o):
+    crt0.s.25972.0.o          C:\Users\Belal\OneDrive\Documents\cc65-snapshot-win32\asminc/zeropage.inc:25
+sreg (zeropage.o):
+    icmp.o                    runtime/icmp.s:9
+    main.c.25972.1.o          build/main.c.25972.1.s:10
+staspidx (staspidx.o):
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+stax0sp (staxsp.o):
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+staxysp (staxsp.o):
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+subysp (subysp.o):
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+tmp1 (zeropage.o):
+    staspidx.o                runtime/staspidx.s:9
+    shrax3.o                  runtime/shrax3.s:8
+    copydata.o                common/copydata.s:9
+    aslax4.o                  runtime/aslax4.s:8
+    aslax3.o                  runtime/aslax3.s:8
+    main.c.25972.1.o          build/main.c.25972.1.s:11
+tmp2 (zeropage.o):
+tmp3 (zeropage.o):
+tmp4 (zeropage.o):
+tosicmp (icmp.o):
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+tosicmp0 (icmp.o):
+tossuba0 (sub.o):
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+tossubax (sub.o):
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+    main.c.25972.1.o          build/main.c.25972.1.s:6041
+zerobss (zerobss.o):
+    crt0.s.25972.0.o          src/crt0.s:14
+
